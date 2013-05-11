@@ -40,7 +40,4 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 # Recovery
 BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/expressatt/recovery/graphics.c
 BOARD_HAS_NO_SELECT_BUTTON := true
-BOARD_CUSTOM_RECOVERY_SAMSUNG := true
-BOARD_RAINBOW_GRAPHICS := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
-BOARD_USE_MESSY_GRAPHICS := true
